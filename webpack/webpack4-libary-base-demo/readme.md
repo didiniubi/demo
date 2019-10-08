@@ -15,11 +15,11 @@
 output: {
     filename: 'libary.js',
     path: path.resolve(__dirname, 'public'),
-    libaryTarget: 'umd' // 已任何方式正确的引入
+    libaryTarget: 'umd' // 以任何方式正确的引入
 }
 ```
 
-- 用script表情引入，并且通过全局变量来使用
+- 用script标签引入，并且通过全局变量来使用
 
 ```
 output: {
