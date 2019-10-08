@@ -1,0 +1,13 @@
+{
+  "name": "webpack4-demo-5",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "watch": "webpack --watch", 
+    "start": "webpack-dev-server",
+    "server": "node server.js"
+  },
+  "author": "", 
+  "license": "ISC"
+}

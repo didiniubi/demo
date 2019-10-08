@@ -1,0 +1,32 @@
+{
+  "name": "webpack4-demo-9",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "sideEffects": [
+    "*.css"
+  ],
+  "scripts": {
+    "dev": "webpack-dev-server --config ./build/webpack.dev.js",
+    "build": "npx webpack --config ./build/webpack.prod.js",
+    "dev-build": "npx webpack --config ./build/webpack.dev.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@babel/core": "^7.5.5",
+    "@babel/preset-env": "^7.5.5",
+    "babel-loader": "^8.0.6",
+    "clean-webpack-plugin": "^3.0.0",
+    "css-loader": "^3.2.0",
+    "html-webpack-plugin": "^3.2.0",
+    "style-loader": "^1.0.0",
+    "webpack-dev-server": "^3.8.0",
+    "webpack-merge": "^4.2.1"
+  },
+  "devDependencies": {
+    "jquery": "^3.4.1",
+    "lodash": "^4.17.15"
+  }
+}

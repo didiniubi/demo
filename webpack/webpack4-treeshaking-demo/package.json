@@ -1,0 +1,14 @@
+{
+  "name": "webpack4-treeshaking-demo",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "sideEffects": ["*.less"],
+  "scripts": {
+    "dev": "webpack-dev-server --config ./build/webpack.dev.js",
+    "build": "webpack --config ./build/webpack.prod.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}

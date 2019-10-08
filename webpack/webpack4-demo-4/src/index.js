@@ -1,0 +1,1 @@
+cons3le.log('hello world') // 故意写错

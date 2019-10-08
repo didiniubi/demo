@@ -1,0 +1,9 @@
+{
+    "presets": [
+        ["@babel/preset-env", {
+        "useBuiltIns": "usage",
+        "corejs": 2
+        }],
+        "@babel/preset-react" // presct的执行顺序也是从上往下 从右往左
+    ]
+}

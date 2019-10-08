@@ -1,0 +1,7 @@
+{
+    "presets": [
+        ["@babel/preset-env", {
+            "useBuiltIns": "usage" // 配置了"useBuiltIns": "usage"后，Babel 会在你使用到 ES2015+ 新特性时，自动添加 babel-polyfill 的引用
+        }]
+    ]
+}

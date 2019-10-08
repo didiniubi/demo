@@ -1,0 +1,16 @@
+{
+  "name": "webpack4-demo-7",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "webpack-dev-server"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@babel/core": "^7.5.5",
+    "bable-loader": "^0.0.1-security"
+  }
+}

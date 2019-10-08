@@ -1,0 +1,2 @@
+webpack是基于模块打包，变量只在自己的模块内有效,是完全隔离的，所以我们可以用webpack内置的plugin ProvidePlugin
+ProvidePlugin会自动加载模块，而不必到处 import 或 require 。
